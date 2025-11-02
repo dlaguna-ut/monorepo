@@ -8,4 +8,4 @@ Create apps and packages folders
 
 Create a pnpm-workspace.yaml file
 
-Update packages.json with workspaces key
+Update package.json with workspaces key
