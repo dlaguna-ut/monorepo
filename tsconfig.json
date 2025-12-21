@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"esModuleInterop": true,
+		"paths": {
+			"@app/*": [
+				"apps/*"
+			],
+			"@repo/logger": [
+				"packages/logger/src"
+			],
+			"@repo/jobs": [
+				"packages/jobs/src"
+			]
+		}
+	}
+}
