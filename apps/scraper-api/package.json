@@ -81,7 +81,8 @@
     "coverageDirectory": "../coverage",
     "testEnvironment": "node",
     "moduleNameMapper": {
-      "^@repo/logger$": "<rootDir>/../../packages/logger/src/index.ts"
+      "^@repo/logger$": "<rootDir>/../../../packages/logger/src/index.ts",
+      "^@repo/jobs$": "<rootDir>/../../../packages/jobs/src/index.ts"
     }
   }
 }
